@@ -1,0 +1,74 @@
+body {
+    background: #10C0E5;
+    text-align: center;
+}
+
+#main { width: 800 px;
+height: 600px
+margin: 25px auto;
+}
+
+#leftside {
+    width: 540 px
+}
+
+.column {
+  float: left;
+  width: 50%;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+     clear: both;
+  }
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+  .cards {
+    max-width: 299 px; 
+    max-height: 269 px;
+  }
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+h3{
+    text-align: center;
+    font-family: ‘Merriweather’, Georgia, serif;
+    font-size: 14pt;
+    color: #403D3C;
+    font-weight: normal;
+}
+h1{
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #403D3C;
+  font-weight: 900;
+  font-size: 40;
+  text-shadow: 2px 2px #FFFFFF;
+}
+
+h4{
+  text-shadow: 2px 2px rgba(114, 110, 109, 0.3);
+}
+
+p{
+  font-family: 'Roboto';
+  
+  font-weight: 400;
+  font-size: 16;
+  color: #FFFFFF;
+}
+a:hover{
+  color: #FFFFFF;
+}
+
+a{
+  color: #403D3C;
+  text-decoration: none;
+}
